@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proiect portal</title>
+
+  <!-- jquery cdn -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!--  Bootstrap Bundle (includes Popper) !!ver 4!! -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <link rel="shortcut icon" href="../public/images/1611554976314.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="div-form">
+    <form action="" id="formCauta">
+      <div class="form-group">
+        <label for=""></label>
+        <input type="text" class="form-control" name="" id="cautare" aria-describedby="helpId"
+          placeholder="Numele companiei cautate" required>
+      </div>
+      <button class="btn btn-primary" id="cauta">cauta</button>
+     </form>
+  
+  </div>
+
+  <br><br>
+
+  <!-- <div>
+    <button id="test" class="btn btn-danger">test</button>
+    <small id="helpId" class="form-text text-muted">uite-te in consola</small>  
+  </div> -->
+
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal" id="modalstart" style="display: none;">
+  Launch demo modal
+</button>
+
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">In lucru</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalclose">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Asteptati, fereastra se va inchide automat la primirea informatiilor
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../public/javascripts/script.js"></script>
+</body>
+
+</html>
